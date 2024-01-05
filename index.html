@@ -275,10 +275,10 @@
 
             <br>
             <ul>
-              <li>An arm processor reads images pre-saved in ddr, then processed the image through neural networks, and finally the recognition result are showed in screen via VGA port.</li>
-              <li>Single-player and co-op modes are developed and can be selected by the player.</li>
-              <li>The games consists give stages of increasing difficulty, various projectiles, background music, and action music.</li>
-              <li>Various functions are implemented, including pause, exit, customized setting, and help.</li>
+              <li>An ARM processor reads pre-saved images from DDR, then processes them through neural networks implemented in FPGA. The recoginition results are displayed on a screen via a VGA port.</li>
+              <li>We used Vivado HLS to design the IP cores of resize, convolution, and pooling.</li>
+              <li>We constructed a display data path using Vivado IPs.</li>
+              <li>We assigned some DNN computing to an ARM processor on the Zybo Z7 board due to limited computation resource.</li>
             </ul>
             <br>
           </td>
